@@ -1,0 +1,26 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "commonjs",
+	
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"migrate":"npx sequelize db:migrate --config config/index.js",
+		"seed":"npx sequelize db:seed:all --config config/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"mongoose": "^7.3.2",
+		"pg": "^8.13.1",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "^6.37.5"
+	}
+}
