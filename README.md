@@ -2,7 +2,7 @@
 
 ## Deployed App
 
-[Seat Booking App](https://seat-booking-azure.vercel.app/)
+[Seat Booking App](https://seat-book-chi.vercel.app/)
 
 ## Problem Description
 
